@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react';
 import { Download, ImagePlus, Minus, Plus, RotateCcw, Share2 } from 'lucide-react';
 
-const MATRIX = '/assets/matriz-apoio-digital.png';
+const MATRIX = `${import.meta.env.BASE_URL}assets/matriz-apoio-digital.png`;
 
 export default function App() {
   const input = useRef<HTMLInputElement>(null);
